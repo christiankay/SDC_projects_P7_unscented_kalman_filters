@@ -1,0 +1,11 @@
+# silly macOS
+.DS_Store
+
+# build files
+build/
+
+# IDE Files
+.idea/
+
+# cmake debug
+cmake-build-debug/
