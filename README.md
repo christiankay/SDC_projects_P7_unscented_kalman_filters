@@ -51,13 +51,8 @@ from the simulator.
 
 ### NIS (Normalized Innovation Squared)
 
-One of the methods employed for testing accuracy and consistency was to use NIS (Normalized Innovation Squared). To calculate NIS, this method first measures the innovation, which is the difference between the estimated positions and the ground truth value. This difference is then normalized by the inverse of the vector S. NIS says that in a 3 dimentional space, approximately 5% of the NIS values should be over 7.8. with a proper implementation of your algorithm. This seems to hold about true when looking at the charts for lidar and radar NIS values:
+One of the methods employed for testing accuracy and consistency was to use NIS (Normalized Innovation Squared). To calculate NIS, this method first measures the innovation, which is the difference between the estimated positions and the ground truth value. This difference is then normalized by the inverse of the vector S. NIS says that in a 3 dimentional space, approximately 5% of the NIS values should be over 7.8. with a proper implementation of your algorithm. 
 
-
-![alt text][image1]
-
-
-![alt text][image2]
 
 
 ### RMSE (Root Mean Square Error)
@@ -93,7 +88,7 @@ The RMSE values mentioned above can be compared to the old values I recieved fro
 |VX  0.4512   | VX  0.3210 |  + 29  %          |
 |VY  0.4399  | VY  0.2497 |  + 43  %          |
 
-Overall a decent increase. My value for Y went down only a very small amount, but the other archived increases in accuracy, especially for velocity, clearly outweigh it. 
+Overall a decent increase. My value for Y went down only a very small amount, but the other archived stronger increases in accuracy, especially for velocity.
 
 Reasons for accuracy increase:
 
